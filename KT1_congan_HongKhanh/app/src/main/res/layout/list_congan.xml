@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_list"
+        >
+
+        <ImageView
+            android:id="@+id/imageViewPicture"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_margin="12dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp" />
+        <TextView
+            android:id="@+id/textviewName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/imageViewPicture"
+            android:text="Tên"
+            android:textColor="@color/purple_700"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textviewCapBac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textviewName"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/imageViewPicture"
+            android:text="cap bac"
+            android:textColor="@color/purple_700"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textviewNCTac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textviewCapBac"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/imageViewPicture"
+            android:text="noi cong tac"
+            android:textColor="@color/purple_700"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+        <TextView
+            android:id="@+id/textviewSao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textviewNCTac"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/imageViewPicture"
+            android:text="sao"
+            android:textColor="@color/purple_700"
+            android:textSize="16sp"
+            android:textStyle="italic" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icondetail"
+            android:background="@null"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+</RelativeLayout>
